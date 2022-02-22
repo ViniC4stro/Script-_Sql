@@ -49,7 +49,8 @@ show tables;
 desc tbClientes;
 
 
--- Criando as tabelas da atividade
+-------------------------------------------------
+-- Criando as tabelas da primeira atividade --
 
 create table tbClientes(
 idCliente int,
@@ -175,3 +176,4 @@ create table tbfuncionariosHasServicos(
 funcionariosIdfuncionario int,
 servicosIdservico int
 );
+-------------------------------------------
