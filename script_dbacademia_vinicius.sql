@@ -1,6 +1,8 @@
 -------------------------------------------------
 -- Criando um bando de dados para uma academia --
 
+drop database dbacademia;
+
 create database dbacademia;
 
 use dbacademia;
@@ -64,3 +66,7 @@ desc tbAtividade;
 desc tbInstrutor;
 
 desc tbMonitor;
+
+
+insert into tbAluno
+	values("0001","2022/04/21","Vinicius Castro","Rua Francisco Xavier, 1176","(11)1111-1111","2005/04/21","1.85","82.0","0123");

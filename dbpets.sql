@@ -1,5 +1,7 @@
 -- Criando as tabelas da atividade --
 
+drop database dbpets;
+
 create database dbpets;
  
 use dbpets

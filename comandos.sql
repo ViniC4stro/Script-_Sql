@@ -47,3 +47,14 @@ show tables;
 -- Visualizando a estrutura das tabelas criadas no bando de dados
 
 desc tbClientes;
+
+
+-- visualizar os registros/dados de uma tabela
+
+select * from tbanimais;
+
+-- inserindo valores nas tabelas
+
+insert into tbanimais(codAni,nome,raca)
+	values(1,'Dog','Vira-lata');
+
